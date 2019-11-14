@@ -12,7 +12,7 @@ const Home = () => {
       </Head>
       <Nav />
       <Feature
-        name="test"
+        name="in-progress"
         inactiveComponent={() => null}
         activeComponent={InProgressComponent}
       />

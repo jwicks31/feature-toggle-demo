@@ -1,6 +1,6 @@
 const initialFeatures = [
     {
-      name: 'test',
+      name: 'in-progress',
       isActive: false,
     }
   ];

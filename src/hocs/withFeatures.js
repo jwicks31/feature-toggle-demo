@@ -6,11 +6,11 @@ import { useRouter } from 'next/router'
 import hoistStatics from './hoistStatics';
 
 const withFeaturesHOC = Component => props => {
-  const router = useRouter()
-  const req = {
-    query: router.query,
-  };
-  const features = getCurrentActiveFeatureNames({ initialFeatures, req });
+  // const router = useRouter()
+  // const req = {
+  //   query: router.query,
+  // };
+  const features = getCurrentActiveFeatureNames({ initialFeatures });
   return (
     <FeatureToggles features={features}>
       <Component {...props} />
